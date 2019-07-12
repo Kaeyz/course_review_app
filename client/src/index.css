@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #eee;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main h1{
+  color: #444;
+  text-align: center;
+}
+
+#main{
+  padding: 0px;
+  box-sizing: border-box;
+  width: 60%;
+  height: 100%;
+}
+
+#course-list{
+  padding: 0;
+}
+
+#course-list li{
+  display: inline-block;
+  margin: 12px;
+  padding:10px;
+  border-radius: 4px;
+  border: 1px solid #880E4F;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+  cursor: pointer;
+  color: #880E4F;
+}
+
+form {
+  background: #fff;
+  padding: auto;
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+
+form .field{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+form label{
+  text-align: right;
+  padding: 6px
+}
+
+form select, form input, form textarea{
+  margin: 4px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+form button{
+  color: #fff;
+  font-size: 2em;
+  background: #AD1457;
+  border: 0;
+  padding: 0 10px;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+
+#course-details{
+  position: fixed;
+  top:0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background: #AD1457;
+  padding: 30px;
+  overflow: auto;
+  box-shadow: -2px -3px 5px rgba(0,0,0,0.3);
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.error {
+  text-align: center;
+  color:  #880E4F
+}
+
+.nav ul {
+  list-style: none;
+  margin-top: 0px;
+  display: flex;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+.nav{
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.nav_item {
+  width: 100px;
+  padding:10px;
+  margin: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  border-radius: 4px;
+  border: 1px solid #880E4F;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+  cursor: pointer;
+  color: #fff;
+  background:  #880E4F;
+}
+.active{
+  background: black;
+}
+
+.label{
+  color: black;
+}
+
+#add-review{
+  background: #AD1457;
+  width: 100%;
+}
+
+.review_input{
+  width: 100%;
+}
+
+.review_textarea{
+  width: 100%;
+  height: 7rem;
+}
+
+.review_button{
+  background-color: #fff;
+  color: #880E4F;
+  border: 3px solid #888888;
+  border-radius: 5px;
+  padding: auto 5px;
+  margin-left: 3px;
+  font-size: 16px;
+}
+.reviews{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+  grid-gap: 3px;
+}
+.review{
+  display: grid;
+  background-color: #eee;
+  padding: 3px;
+  border-radius: 4px;
+  border: 1px solid #880E4F;
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.3);
+  color: #880E4F;
+}
+
+.comment{
+  display: block;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.username{
+  display: block;
+  margin: 0px;
+  font-size: 1rem;
+  font-family: tahoma;
+  font-style: italic;
+  justify-self: end;
+  padding: 3px;
+}
